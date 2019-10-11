@@ -36,7 +36,7 @@ namespace Treinamento.Apresentacao.Cmd.Features.Agencias
             _agenciaDao.CadastraDados(agencia);
 
             Console.Clear();
-            Console.WriteLine("Agencia cadastrada com sucesso \n Pressione qualquer tecla para voltar ao menu");
+            Console.WriteLine("Agencia cadastrada com sucesso \n Pressione qualquer tecla para voltar ao menu principal");
             Console.ReadKey();
             Console.Clear();
         }
